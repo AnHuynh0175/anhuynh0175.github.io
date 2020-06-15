@@ -13,6 +13,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
 }
+
 /* LOGO */
 h1 {
     font-family: fantasy;
@@ -23,6 +24,23 @@ h1 {
     text-align: center;
     /*box-shadow: 4px 4px 5px #888888;*/
     margin-top: 10ppx;
+}
+
+/* Nav */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+}
+
+.menu-nav {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.left-logo {
+    margin: -2vw;
 }
 
 /* Side-Nav */
@@ -59,19 +77,6 @@ h1 {
     right: 25px;
     font-size: 30px;
     margin-left: 50px;
-}
-
-/* Nav */
-
-.nav-link-wrapper {
-    text-align: right;
-    margin-right: 3vw;
-    margin-top: 3vw;
-}
-
-.menu-nav {
-    cursor: pointer;
-    font-size: 25px;
 }
 
 

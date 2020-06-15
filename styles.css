@@ -31,7 +31,7 @@ h1 {
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 3vw;
+    padding: 1vw;
 }
 
 .menu-nav {
@@ -40,7 +40,7 @@ h1 {
 }
 
 .left-logo {
-    margin: -2vw;
+    margin: 1vw;
 }
 
 /* Side-Nav */

@@ -4,34 +4,18 @@
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
     box-sizing: border-box;
-    background-color: ;
 }
 
-.menu {
-    color: white !important; 
-    display: block;
-    float: left;
-    font-family: Lato;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 300;
-    height: 33px;
-    line-height: 0px;
-    position: relative;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 242.46875px;
-    z-index: 890;
-    padding-top: 50px;
-    margin-left: 30px;
-  
+/* nav-bar */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    
 }
 
 .content {
     float: right;
-    font-size: 24px;
-    color: white;
-
 }
 
 h1 {
@@ -39,7 +23,6 @@ h1 {
     font-size: 6em;
     text-align: center;
     color: #425B99;
-    padding-top: 100px;
 }
 h2 {
     text-align: center;

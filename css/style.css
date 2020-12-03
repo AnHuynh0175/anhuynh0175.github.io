@@ -30,3 +30,18 @@ h2 {
 h3 {
     text-align: center;
 }
+
+.images-wrapper {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    margin: 2%;
+}

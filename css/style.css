@@ -26,6 +26,10 @@
     margin-left: 20px;
 }
 
+.nav-wrapper a:hover{
+    color: #425B99;
+}
+
 .content {
     float: right;
 }
@@ -41,6 +45,7 @@ h2 {
 }
 h3 {
     text-align: center;
+    font-weight: lighter;
 }
 
 .images-wrapper {

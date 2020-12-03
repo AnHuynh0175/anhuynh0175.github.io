@@ -10,8 +10,20 @@
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
-    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav-wrapper > .nav-left > a {
+    color: black;
+    margin-right: 20px;
+}
+
+.nav-wrapper > .nav-right > a {
+    color: black;
+    margin-left: 20px;
 }
 
 .content {
@@ -44,4 +56,32 @@ img {
     height: auto;
     width: 100%;
     margin: 2%;
+}
+
+.intro {
+    line-height: 2;
+}
+
+.name-footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+    .intro {
+        line-height: 1;
+    }
+    .nav-wrapper {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .nav-wrapper > .nav-left > a {
+        margin-right: 5px;
+    }
+    
+    .nav-wrapper > .nav-right > a {
+        margin-left: 5px;
+    }
 }

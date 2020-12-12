@@ -1,3 +1,7 @@
+*{
+    font-family: "Ubuntu", sans-serif;
+}
+
 img {
     width: 50%;
     display: block;
@@ -21,8 +25,14 @@ hr {
 p {
     margin-left: 10%;
     margin-right: 10%;
+    line-height: 2;
 }
 
 .persona, .flows, .lo-fi {
     line-height: 2;
+}
+
+h2{
+    color: #425B99;
+    margin-bottom: 35px;
 }

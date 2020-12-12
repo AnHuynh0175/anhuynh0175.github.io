@@ -1,5 +1,5 @@
 *{
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 img {
@@ -15,22 +15,21 @@ img {
 }
 
 hr {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color: #ccc;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 35px;
     margin-bottom: 35px;
 }
 
 p {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     line-height: 2;
 }
 
-.persona, .flows, .lo-fi {
-    line-height: 2;
-}
+
 
 h2{
     color: #425B99;

@@ -63,6 +63,15 @@ img {
     margin: 2%;
 }
 
+hr {
+    width: 80%;
+    color: beige;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
 .intro {
     line-height: 2;
 }

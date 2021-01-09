@@ -10,6 +10,8 @@ img {
 }
 
 .intro-box {
+    border: solid 3px black;
+    border-radius: 15px;
     margin-left: 30%;
     margin-right: 30%;
 }
@@ -19,8 +21,8 @@ hr {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
 p {

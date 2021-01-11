@@ -17,12 +17,12 @@
 }
 
 .nav-wrapper > .nav-left > a {
-    color: black;
+    color: #545454;
     margin-right: 20px;
 }
 
 .nav-wrapper > .nav-right > a {
-    color: black;
+    color: #545454;
     margin-left: 20px;
 }
 
@@ -32,6 +32,7 @@
 
 .name-footer {
     text-align: center;
+    color: #545454;
     padding-bottom: 20px;
 }
 

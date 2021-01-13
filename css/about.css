@@ -72,6 +72,9 @@
     .inner-container{
         padding: 80px;
     }
+    .btn.middle{
+        padding: 80px;
+    }
 }
 
 @media screen and (max-width:1000px){
@@ -82,6 +85,9 @@
     .inner-container{
         width: 100%;
     }
+    .btn.middle{
+        padding: 100px;
+    }
 }
 
 @media screen and (max-width:600px){
@@ -89,6 +95,9 @@
         padding: 0;
     }
     .inner-container{
+        padding: 60px;
+    }
+    .btn.middle{
         padding: 60px;
     }
 }
@@ -105,14 +114,14 @@
 .middle{
     position: absolute;
     top: 60%;
-    transform: translateY(-10%);
+    transform: translateY(60%);
     width: 30%;
     text-align: center;
   }
   .btn{
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background: #f1f1f1;
     margin: 10px;
     border-radius: 30%;
@@ -122,8 +131,8 @@
     position: relative;
   }
   .btn i{
-    line-height: 60px;
-    font-size: 26px;
+    line-height: 50px;
+    font-size: 22px;
     transition: 0.2s linear;
   }
   .btn:hover i{

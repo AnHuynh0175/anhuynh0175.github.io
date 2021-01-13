@@ -92,7 +92,7 @@
 
 @media screen and (max-width:600px){
     .about-section{
-        padding: 0;
+        padding: 80px;
     }
     .inner-container{
         padding: 60px;

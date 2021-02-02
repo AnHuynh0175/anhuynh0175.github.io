@@ -7,6 +7,14 @@
 }
 
 /* nav-bar */
+.header {
+    background-color: white;
+    border-bottom: 1px solid #B78E80;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
 .nav-wrapper {
     display: flex;
     justify-content: space-between;

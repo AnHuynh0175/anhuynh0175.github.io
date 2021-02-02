@@ -68,15 +68,6 @@
     font-size: 13px;
 }
 
-
-
-.name-footer {
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    color: #545454;
-}
-
 /*social media buttons*/
 
 .middle{
@@ -158,4 +149,10 @@
     .inner-container{
         padding: 60px;
     }
+}
+
+.name-footer {
+  text-align: center;
+  padding: 40px 20px;
+  color: #545454;
 }

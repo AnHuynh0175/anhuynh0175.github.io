@@ -9,8 +9,6 @@
 /* nav-bar */
 .header {
     background-color: white;
-    border-bottom: 1px solid #B78E80;
-    position: fixed;
     width: 100%;
     z-index: 1;
 }
@@ -38,10 +36,22 @@
     color: #B78E80;
 }
 
-.name-footer {
-    text-align: center;
+.ah-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    padding: 100px;
     color: #545454;
-    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.ah-footer > .footer-left > a {
+    margin-right: 50px;
+}
+
+.ah-footer > .footer-left > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 img {

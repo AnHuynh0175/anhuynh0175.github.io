@@ -68,63 +68,23 @@
     font-size: 13px;
 }
 
-/*social media buttons*/
+.ah-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  padding: 100px;
+  color: #545454;
+  font-weight: 900;
+}
 
-.middle{
-    position: absolute;
-    top: 60%;
-    transform: translateY(60%);
-    width: 30%;
-    text-align: center;
-  }
-  .btn{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background: #f1f1f1;
-    margin: 10px;
-    border-radius: 30%;
-    box-shadow: 0 5px 15px -5px #00000070;
-    color: #B78E80;
-    overflow: hidden;
-    position: relative;
-  }
-  .btn i{
-    line-height: 50px;
-    font-size: 22px;
-    transition: 0.2s linear;
-  }
-  .btn:hover i{
-    transform: scale(1.3);
-    color: #f1f1f1;
-  }
-  .btn::before{
-    content: "";
-    position: absolute;
-    width: 120%;
-    height: 120%;
-    background: #B78E80;
-    transform: rotate(45deg);
-    left: -110%;
-    top: 90%;
-  }
-  .btn:hover::before{
-    animation: aaa 0.7s 1;
-    top: -10%;
-    left: -10%;
-  }
-  @keyframes aaa {
-    0%{
-      left: -110%;
-      top: 90%;
-    }50%{
-      left: 10%;
-      top: -30%;
-    }100%{
-      top: -10%;
-      left: -10%;
-    }
-  }
+.ah-footer > .footer-left > a {
+  margin-right: 50px;
+}
+
+.ah-footer > .footer-left > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 @media screen and (max-width:1200px){
     .inner-container{
@@ -151,8 +111,32 @@
     }
 }
 
-.name-footer {
-  text-align: center;
-  padding: 40px 20px;
-  color: #545454;
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+  .intro {
+      line-height: 1;
+  }
+  .nav-wrapper {
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+  .nav-wrapper > .nav-left > a {
+      margin-right: 5px;
+  }
+  
+  .nav-wrapper > .nav-right > a {
+      margin-left: 5px;
+  }
+  .ah-footer {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+  .ah-footer > .footer-left > a {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+  .images-wrapper {
+      grid-template-columns: 1fr;
+  }
 }
